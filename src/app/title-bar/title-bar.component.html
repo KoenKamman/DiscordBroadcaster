@@ -1,12 +1,13 @@
 <div id="wrapper">
   <div class="no-drag">
     <div id="title-bar">
+      <i class="material-icons broadcast-icon">adjust</i>
       <span id="title">Discord Broadcaster</span>
     </div>
   </div>
   <div id="buttons">
-    <button (click)="minimizeWindow()">-</button>
-    <button (click)="maximizeWindow()">O</button>
-    <button class="closeButton" (click)="closeWindow()">X</button>
+    <button (click)="minimizeWindow()"><i class="material-icons">remove</i></button>
+    <button (click)="maximizeWindow()"><i class="material-icons">crop_square</i></button>
+    <button class="closeButton" (click)="closeWindow()"><i class="material-icons">close</i></button>
   </div>
 </div>

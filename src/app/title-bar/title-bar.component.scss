@@ -3,6 +3,10 @@
 $height: 32px;
 $padding: 5px;
 
+.broadcast-icon {
+  color: red;
+}
+
 #wrapper {
   display: flex;
 }
@@ -21,11 +25,14 @@ $padding: 5px;
 #title {
   color: $font-color;
   line-height: $height - $padding * 1.5;
-  padding: 0 0 0 $padding;
 }
 
 #buttons {
   display: flex;
+}
+
+i {
+  color: $font-color;
 }
 
 #buttons button {
@@ -33,7 +40,8 @@ $padding: 5px;
   background-color: $primary-color;
   height: $height;
   width: $height;
-  color: $font-color;
+  padding: 0;
+  margin: 0;
 }
 
 #buttons button:focus {

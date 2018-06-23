@@ -1,6 +1,10 @@
 @import './variables';
 @import './mixins';
 
+$material-icons-font-size: 12px !default;
+$material-icons-font-path: '~material-icons/iconfont/';
+@import '~material-icons/iconfont/material-icons.scss';
+
 body {
   padding: 0;
   margin: 0;
