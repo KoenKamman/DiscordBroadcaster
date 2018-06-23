@@ -1,0 +1,9 @@
+@import './variables';
+@import './mixins';
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto-Light", sans-serif;
+  background-color: $primary-color-lighter;
+}

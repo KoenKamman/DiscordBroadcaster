@@ -1,0 +1,49 @@
+@import '~sass/variables';
+
+$height: 32px;
+$padding: 5px;
+
+#wrapper {
+  display: flex;
+}
+
+.no-drag {
+  height: $height - $padding;
+  background-color: $primary-color-darker;
+  padding: $padding 0 0 $padding;
+  flex: 1;
+}
+
+#title-bar {
+  -webkit-app-region: drag;
+}
+
+#title {
+  color: $font-color;
+  line-height: $height - $padding * 1.5;
+  padding: 0 0 0 $padding;
+}
+
+#buttons {
+  display: flex;
+}
+
+#buttons button {
+  border: none;
+  background-color: $primary-color;
+  height: $height;
+  width: $height;
+  color: $font-color;
+}
+
+#buttons button:focus {
+  outline: none;
+}
+
+#buttons button:hover{
+  background-color: #3f3f3f;
+}
+
+#buttons .closeButton:hover{
+  background-color: #ad0000;
+}
